@@ -477,13 +477,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width:100%;
-  /* height: 100vh; */
+  height: 100vh;
   /* background: url(../img/dream.png) center center; */
   /* background-size: cover;
   overflow: hidden;
   position: relative; */
   background-color: #1BACFA;
-  height:500px; display: flex;justify-content: center;
+  display: flex;justify-content: center;
 }
 #hero img{
   height: 100%;
@@ -525,10 +525,9 @@ h6 {
     top: 70px;
   }
   #hero img{
-    height: 75%;
+    height: 100%;
     width:100%;
     position:relative;
-    top:70px;
   }
 }
 
@@ -545,6 +544,9 @@ h6 {
 }
 
 @media (max-width: 991px) {
+  #hero{
+    height: 300px
+  }
   #hero h1 {
     font-size: 34px;
   }
