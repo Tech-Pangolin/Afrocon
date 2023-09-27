@@ -476,65 +476,60 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width:100%;
+  width: 100%;
   height: 100vh;
-  /* background: url(../img/dream.png) center center; */
-  /* background-size: cover;
-  overflow: hidden;
-  position: relative; */
+  background: url(../img/dream.png) center center no-repeat; 
+  background-size: cover;
   background-color: #1BACFA;
-  display: flex;justify-content: center;
-}
-#hero img{
-  height: 100%;
-  width:100%;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-#hero:before {
-  content: "";
-  /* background: rgba(6, 12, 34, 0.8); */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 90px;
-  right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 700px) {
+  #hero {
+    height: 300px;
+  }
+  
   #hero .hero-container {
     top: 70px;
   }
-  #hero img{
-    height: 100%;
-    width:100%;
-    position:relative;
+  
+  #hero h1 {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+  #hero {
+    height: 500px;
+  }
+  
+  #hero .hero-container {
+    top: 120px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 901px) {
+  #hero {
+    height: 700px;
+  }
+  
+  #hero .hero-container {
+    top: 200px;
+  }
+  
+  #hero h1 {
+    font-size: 56px;
   }
 }
 
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -543,25 +538,10 @@ h6 {
   color: #f82249;
 }
 
-@media (max-width: 991px) {
-  #hero{
-    height: 300px
-  }
-  #hero h1 {
-    font-size: 34px;
-  }
-}
-
 #hero p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
-}
-
-@media (max-width: 991px) {
-  #hero p {
-    font-size: 16px;
-  }
 }
 
 #hero .play-btn {
