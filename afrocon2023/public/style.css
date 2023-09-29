@@ -466,7 +466,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/dream.png) center center no-repeat; 
+  background: url(./img/dream.png) center center no-repeat; 
   background-size: cover;
   background-color: #1BACFA;
   display: flex;
@@ -635,7 +635,7 @@ h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/game-bg.jpg");
+  background: url("./img/game-bg.jpg");
   /* background-size:auto; */
   overflow: hidden;
   position: relative;
@@ -922,7 +922,7 @@ h6 {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("./img/venue-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1179,7 +1179,7 @@ h6 {
 --------------------------------------------------------------*/
 #subscribe {
   padding: 60px;
-  background: url(../img/subscribe-bg.jpg) center center no-repeat;
+  background: url('./img/subscribe-bg.jpg') center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;

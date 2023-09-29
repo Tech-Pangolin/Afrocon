@@ -1,25 +1,5 @@
-import './assets/css/style.css';
-import { useEffect } from 'react';
 
 function App() {
-
-  // useEffect(() => {
-  //   const FE_scripts = [
-  //     "src/assets/vendor/aos/aos.js",
-  //     "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
-  //     "./assets/vendor/glightbox/js/glightbox.min.js",
-  //     "./assets/vendor/swiper/swiper-bundle.min.js",
-  //     "./assets/vendor/php-email-form/validate.js",
-  //     "./assets/js/main.js"
-  //   ]
-
-  //   FE_scripts.forEach(script => {
-  //     const script_tag = document.createElement('script');
-  //     script_tag.src = script;
-  //     script_tag.async = true;
-  //     document.body.appendChild(script_tag);
-  //   })
-  // }, []);
 
   return (
     <>
@@ -141,7 +121,7 @@ function App() {
               >
                 {" "}
                 <img
-                  src="assets/img/volunteer.jpeg"
+                  src="./img/volunteer.jpeg"
                   alt="Speaker 1"
                   className="img-fluid"
                 />
@@ -172,7 +152,7 @@ function App() {
                 target="_blank"
               >
                 <img
-                  src="assets/img/panel.jpeg"
+                  src="./img/panel.jpeg"
                   alt="Speaker 2"
                   className="img-fluid"
                 />
@@ -218,7 +198,7 @@ function App() {
                 target="_blank"
               >
                 <img
-                  src="assets/img/vendor2.jpeg"
+                  src="./img/vendor2.jpeg"
                   alt="Speaker 4"
                   className="img-fluid"
                 />
@@ -245,7 +225,7 @@ function App() {
           <div className="col-lg-6 col-md-6">
             <div className="speaker" data-aos="fade-up" data-aos-delay={300}>
               <img
-                src="assets/img/HOACC.png"
+                src="./img/HOACC.png"
                 alt="Speaker 6"
                 className="img-fluid"
               />
@@ -283,7 +263,7 @@ function App() {
                 target="_blank"
               >
                 <img
-                  src="assets/img/join.jpeg"
+                  src="./img/join.jpeg"
                   alt="Speaker 5"
                   className="img-fluid"
                 />
@@ -601,12 +581,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/1.jpg"
+                href="./img/venue-gallery/1.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/1.jpg"
+                  src="./img/venue-gallery/1.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -616,12 +596,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/2.jpg"
+                href="./img/venue-gallery/2.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/2.jpg"
+                  src="./img/venue-gallery/2.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -631,12 +611,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/3.jpg"
+                href="./img/venue-gallery/3.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/3.jpg"
+                  src="./img/venue-gallery/3.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -646,12 +626,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/4.jpg"
+                href="./img/venue-gallery/4.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/4.jpg"
+                  src="./img/venue-gallery/4.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -661,12 +641,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/5.jpg"
+                href="./img/venue-gallery/5.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/5.jpg"
+                  src="./img/venue-gallery/5.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -676,12 +656,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/6.jpg"
+                href="./img/venue-gallery/6.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/6.jpg"
+                  src="./img/venue-gallery/6.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -691,12 +671,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/7.jpg"
+                href="./img/venue-gallery/7.jpg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/7.jpg"
+                  src="./img/venue-gallery/7.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -706,12 +686,12 @@ function App() {
           <div className="col-lg-3 col-md-4">
             <div className="venue-gallery">
               <a
-                href="assets/img/venue-gallery/8.jpeg"
+                href="./img/venue-gallery/8.jpeg"
                 className="glightbox"
                 data-gall="venue-gallery"
               >
                 <img
-                  src="assets/img/venue-gallery/8.jpeg"
+                  src="./img/venue-gallery/8.jpeg"
                   alt=""
                   className="img-fluid"
                 />
