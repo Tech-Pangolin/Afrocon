@@ -1,7 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/style.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  // useEffect(() => {
+  //   const FE_scripts = [
+  //     "src/assets/vendor/aos/aos.js",
+  //     "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+  //     "./assets/vendor/glightbox/js/glightbox.min.js",
+  //     "./assets/vendor/swiper/swiper-bundle.min.js",
+  //     "./assets/vendor/php-email-form/validate.js",
+  //     "./assets/js/main.js"
+  //   ]
+
+  //   FE_scripts.forEach(script => {
+  //     const script_tag = document.createElement('script');
+  //     script_tag.src = script;
+  //     script_tag.async = true;
+  //     document.body.appendChild(script_tag);
+  //   })
+  // }, []);
+
   return (
     <>
   {/* ======= Header ======= */}
