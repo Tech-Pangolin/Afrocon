@@ -1,7 +1,7 @@
 
 function Speakers() {
-    return (
-        <section id="speakers">
+  return (
+    <section id="speakers">
       <div className="container" data-aos="fade-up">
         <div className="section-header">
           <h2>About AfroCon</h2>
@@ -28,9 +28,9 @@ function Speakers() {
           </p>
         </div>
         <div className="row">
-          <div className="col-lg-6 col-md-6">
+          {/* <div className="col-lg-6 col-md-6">
             <div className="speaker" data-aos="fade-up" data-aos-delay={100}>
-                <a href="https://form.jotform.com/230688988600166" rel="noopener noreferrer">
+              <a href="https://form.jotform.com/230688988600166" rel="noopener noreferrer">
                 {" "}
                 <img
                   src="./img/volunteer.jpeg"
@@ -49,125 +49,12 @@ function Speakers() {
                 </h3>
                 <p>Volunteer with us</p>
                 <div className="social">
-                  {/* <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a> */}
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-6 col-md-6">
-            <div className="speaker" data-aos="fade-up" data-aos-delay={200}>
-              <a
-                href="https://form.jotform.com/231817949324060"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="./img/panel.jpeg"
-                  alt="Speaker 2"
-                  className="img-fluid"
-                />
-              </a>
-              <div className="details">
-                <h3>
-                  <a
-                    href="https://form.jotform.com/231817949324060"
-                    rel="noopener noreferrer"
-                  >
-                    Panel/Workshop/Presentation Application
-                  </a>
-                </h3>
-                <p>Share your passions</p>
-                <div className="social">
-                  {/* <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div class="col-lg-4 col-md-6">
-      <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-        <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
-        <div class="details">
-          <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-          <p>Fugiat laborum et</p>
-          <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-    </div> */}
-          <div className="col-lg-6 col-md-6">
-            <div className="speaker" data-aos="fade-up" data-aos-delay={100}>
-              <a
-                href="https://form.jotform.com/231819077997171"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="./img/vendor2.jpeg"
-                  alt="Speaker 4"
-                  className="img-fluid"
-                />
-              </a>
-              <div className="details">
-                <h3>
-                  <a
-                    href="https://form.jotform.com/231819077997171"
-                    rel="noopener noreferrer"
-                  >
-                    Exhibitor/Vendor Application
-                  </a>
-                </h3>
-                <p>Present your products</p>
-                <div className="social">
-                  {/* <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-6">
-            <div className="speaker" data-aos="fade-up" data-aos-delay={300}>
-              <img
-                src="./img/HOACC.png"
-                alt="Speaker 6"
-                className="img-fluid"
-              />
-              <div className="details">
-                <h3>
-                  <a
-                    href="https://form.jotform.com/232206884994165"
-                    rel="noopener noreferrer"
-                  >
-                    Sponsorship Opportunities
-                  </a>
-                </h3>
-                {/* <p>Support our cause</p>
-                <div className="social">
-                  <a href="#">
-                    <i className="bi bi-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="bi bi-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="bi bi-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="bi bi-linkedin" />
-                  </a>
-                </div> */}
-              </div>
-            </div>
-          </div>
+          </div> */}
+
           <div className="col-lg-12 col-md-12">
             <div className="speaker" data-aos="fade-up" data-aos-delay={200}>
               <a
@@ -181,20 +68,16 @@ function Speakers() {
                 />
               </a>
               <div className="details">
-                <h3>
+                <h1 className="text-uppercase" style={{fontSize:'72px'}}>
                   <a
                     href="https://www.eventbrite.com/e/afrocon-2023-tickets-671116436327?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshwebdesktop"
                     rel="noopener noreferrer"
                   >
-                    Get tickets!
+                   <strong>Get tickets!</strong>
                   </a>
-                </h3>
+                </h1>
                 <p>Join the fun</p>
                 <div className="social">
-                  {/* <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a> */}
                 </div>
               </div>
             </div>
@@ -202,7 +85,7 @@ function Speakers() {
         </div>
       </div>
     </section>
-    )
+  )
 }
 
 export default Speakers;

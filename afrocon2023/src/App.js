@@ -24,7 +24,7 @@ function App() {
 
         <Venue />
 
-        <FAQ />
+        {/* <FAQ /> */}
 
       </main>
       {/* ======= Footer ======= */}

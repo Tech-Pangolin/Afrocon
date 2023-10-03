@@ -8,8 +8,137 @@ function Schedule() {
                     <h2>Event Schedule</h2>
                     <p>Here is our event schedule</p>
                 </div>
+                <div className="container-iframe">
+                    <iframe class="responsive-iframe" width="100%" height="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvRq5qIiOfjltExW0kO5BMJn-2wo-Ve9pcjFMBPp5wutW2aksmerWgXScgjaRQlx8Q38QXnMCI1dlI/pubhtml?widget=true&amp;headers=false"></iframe>
+                </div>
 
-                <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                <div class="section-header mt-5">
+                    <h2>Speakers</h2>
+                    <p>Our featured participants</p>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/1.png" className="img-thumbnail" alt="" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/andrea.png" className="img-thumbnail" srcset="" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/4.png" className="img-thumbnail" alt="" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/5.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/6.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/7.png" className="img-thumbnail" srcset="" />
+                    </div>                  
+                </div>
+                <div className="row">
+
+                    <div className="col">
+                        <img src="./img/14.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/15.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/16.png" className="img-thumbnail" srcset="" />
+                    </div>   </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/17.png" className="img-thumbnail" srcset="" />
+                    </div>
+
+                    <div className="col">
+                        <img src="./img/18.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/Kerron.png" className="img-thumbnail" srcset="" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/marcus.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/Zedeka.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/Christopher.png" className="img-thumbnail" srcset="" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col"> <img src="./img/game1.png" className="img-thumbnail" srcset="" /></div>
+                    <div className="col"> <img src="./img/game.png" className="img-thumbnail" srcset="" /></div>
+                    <div className="col"> <img src="./img/ofpg.png" className="img-thumbnail" srcset="" /></div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/20.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/21.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/22.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/23.png" className="img-thumbnail" srcset="" />
+                    </div>
+                      </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/24.png" className="img-thumbnail" srcset="" />
+                    </div>
+
+                    <div className="col">
+                        <img src="./img/25.png" className="img-thumbnail" srcset="" />
+                    </div>
+              
+                    <div className="col">
+                        <img src="./img/26.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/27.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    
+
+                    </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="./img/28.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/29.png" className="img-thumbnail" srcset="" />
+                    </div>
+
+                    <div className="col">
+                        <img src="./img/30.png" className="img-thumbnail" srcset="" />
+                    </div>
+               
+                    <div className="col">
+                        <img src="./img/31.png" className="img-thumbnail" srcset="" />
+                    </div> 
+                    </div><div className="row">
+                    <div className="col">
+                        <img src="./img/32.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/33.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/34.png" className="img-thumbnail" srcset="" />
+                    </div>
+                    <div className="col">
+                        <img src="./img/35.png" className="img-thumbnail" srcset="" />
+                    </div>
+                </div>
+                {/* <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
                     <li class="nav-item">
                         <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
                     </li>
@@ -19,9 +148,9 @@ function Schedule() {
                     <li class="nav-item">
                         <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
                     </li>
-                </ul>
+                </ul> */}
 
-                <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+                {/* <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
                     necessitatibus voluptatem quis labore perspiciatis quia.</h3>
 
                 <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -248,11 +377,11 @@ function Schedule() {
                     </div>
 
 
-                </div>
+                </div>*/}
 
             </div>
 
-        </section> 
+        </section>
     )
 }
 

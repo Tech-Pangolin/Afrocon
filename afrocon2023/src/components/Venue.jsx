@@ -1,11 +1,21 @@
 
-function Venue() { 
-    return (
-        <section id="venue">
-      <div className="container-fluid" data-aos="fade-up">
+function Venue() {
+  return (
+    <section id="venue">
+      <div className="container-fluid" data-aos="fade-up">        
         <div className="section-header">
           <h2>Event Venue</h2>
           <p>Event venue location info and gallery</p>
+          <div className="details">
+            <h5 className="text-center">
+              <a
+                href="https://form.jotform.com/230688988600166"
+                rel="noopener noreferrer"
+              >
+                Volunteer Interest Form
+              </a>
+            </h5>
+          </div>
         </div>
         <div className="row g-0">
           <div className="col-lg-6 venue-map">
@@ -159,7 +169,7 @@ function Venue() {
         </div>
       </div>
     </section>
-    )
+  )
 }
 
 export default Venue;   
