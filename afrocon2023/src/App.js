@@ -18,11 +18,11 @@ function App() {
 
         <About />
 
-        <Speakers />
+         <Speakers />
 
-        <Schedule />
+        {/*<Schedule />
 
-        <Venue />
+        <Venue /> */}
 
         {/* <FAQ /> */}
 

@@ -466,8 +466,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(./img/dream.png) center center no-repeat; 
-  background-size: cover;
+  background: url(./img/logo.png) center center no-repeat; 
+  background-size: contain;
   background-color: #1BACFA;
   display: flex;
   justify-content: center;

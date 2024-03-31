@@ -6,7 +6,7 @@ function About() {
                 <div className="row">
                     <div className="col-lg-6">
                         <h2>
-                            The House of Afros, Capes &amp; Curls Presents: AfroCon 2023
+                            The House of Afros, Capes &amp; Curls Presents: AfroCon 2024
                         </h2>
                     </div>
                     <div className="col-lg-3">
@@ -18,7 +18,7 @@ function About() {
                     </div>
                     <div className="col-lg-3">
                         <h3>When</h3>
-                        <p>October 7th 2023</p>
+                        <p>October 12th 2024</p>
                     </div>
                 </div>
             </div>

@@ -69,12 +69,13 @@ function Speakers() {
               </a>
               <div className="details">
                 <h1 className="text-uppercase" style={{fontSize:'72px'}}>
-                  <a
+                  {/* <a
                     href="https://www.eventbrite.com/e/afrocon-2023-tickets-671116436327?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshwebdesktop"
                     rel="noopener noreferrer"
-                  >
-                   <strong>Get tickets!</strong>
-                  </a>
+                  > */}
+                  <a href="#">
+                   <strong>Tickets coming soon!</strong></a>
+                  {/* </a> */}
                 </h1>
                 <p>Join the fun</p>
                 <div className="social">
