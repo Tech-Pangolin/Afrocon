@@ -477,18 +477,31 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url(../img/dream.png) center center no-repeat; 
-  background-size: cover;
-  background-color: #1BACFA;
+  height: 100%;
+  /* background: url(../img/futurenow.PNG) center center no-repeat; 
+  background-size: contain;
+  background-color: #1BACFA; */
   display: flex;
   justify-content: center;
+}
+ 
+#hero img{
+  width: 100%;
+  height: 100vh;
 }
 
 @media (max-width: 700px) {
   #hero {
     height: 300px;
   }
+  .commercial{
+    height: 300px;
+    width:100%;
+  }
+/* 
+  #hero img{
+     height: 100vh; 
+  } */
   
   #hero .hero-container {
     top: 70px;
@@ -501,7 +514,7 @@ h6 {
 
 @media (min-width: 701px) and (max-width: 900px) {
   #hero {
-    height: 500px;
+    /* height: 500px; */
   }
   
   #hero .hero-container {
@@ -515,7 +528,7 @@ h6 {
 
 @media (min-width: 901px) {
   #hero {
-    height: 700px;
+    /* height: 700px; */
   }
   
   #hero .hero-container {
